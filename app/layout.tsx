@@ -2,7 +2,7 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://josephaguilarbohorquez.com"),
+  metadataBase: new URL("https://josephaguilarbohorquez.github.io"),
   title: "Joseph Aguilar-Bohorquez | Applied Economist",
   description:
     "Joseph Aguilar-Bohorquez is a Ph.D. candidate in Applied Economics at the University of Minnesota and a 2026–27 job market candidate.",
