@@ -1,6 +1,6 @@
 # Joseph Aguilar-Bohorquez
 
-Source for [Joseph Aguilar-Bohorquez's academic website](https://josephaguilarbohorquez.com).
+Source for [Joseph Aguilar-Bohorquez's academic website](https://josephaguilarbohorquez.github.io).
 
 The site is a static Next.js export published with GitHub Pages. Updates pushed to
 `main` are built and deployed automatically.
