@@ -338,26 +338,24 @@ export default function Home() {
                       </ExternalLink>
                       {" · "}Circulated under an earlier title
                     </p>
-                    <div className="related-outreach">
-                      <p className="related-outreach-label">
-                        Related Outreach Publication
-                      </p>
+                    <p className="paper-status">
+                      Related Outreach Publication
+                    </p>
                     
-                      <p className="related-outreach-citation">
-                        Castillo, José Gabriel, Joseph Aguilar-Bohorquez,
-                        and Ivanna Valverde-Bajaña. 2018.
-                        &ldquo;Métodos de Valoración Económica:
-                        Una aplicación al manglar del Golfo de Guayaquil.&rdquo;
-                        <em> Boletín de Política Económica</em>, no. 3,
-                        Centro de Investigaciones Económicas, ESPOL.
-                      </p>
+                    <p className="paper-description">
+                      Castillo, José Gabriel, Joseph Aguilar-Bohorquez,
+                      and Ivanna Valverde-Bajaña. 2018.
+                      &ldquo;Métodos de Valoración Económica:
+                      Una aplicación al manglar del Golfo de Guayaquil.&rdquo;
+                      <em> Boletín de Política Económica</em>, no. 3,
+                      Centro de Investigaciones Económicas, ESPOL.
+                    </p>
                     
-                      <p className="related-outreach-link">
-                        <ExternalLink href={links.ciecMangrove}>
-                          Read outreach article
-                        </ExternalLink>
-                      </p>
-                    </div>
+                    <p className="paper-status">
+                      <ExternalLink href={links.ciecMangrove}>
+                        Read outreach article
+                      </ExternalLink>
+                    </p>
                   </div>
                 </article>
               </div>
@@ -457,8 +455,8 @@ export default function Home() {
                       properties subject exclusively to stricter heritage protections.
                     </p>
                     
-                    <p className="publication-coverage">
-                      <strong>Institutional research Coverage::</strong>{" "}
+                    <p className="paper-status">
+                      Research Coverage:{" "}
                       <ExternalLink href={links.aucklandCoverage}>
                         Auckland Council (2018)
                       </ExternalLink>
@@ -670,7 +668,7 @@ export default function Home() {
                 </p>
         
                 <p className="project-source">
-                  Ongoing project · Working title
+                  Ongoing project
                 </p>
               </article>
             </div>
