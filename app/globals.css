@@ -892,3 +892,11 @@ a { color: inherit; text-underline-offset: .2em; }
     font-size: 0.89rem;
   }
 }
+
+
+.policy-project > p.project-source {
+  margin: auto 0 0;
+  padding-top: 18px;
+  color: var(--blue);
+}
+
