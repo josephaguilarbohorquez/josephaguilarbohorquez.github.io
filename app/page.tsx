@@ -338,10 +338,10 @@ export default function Home() {
                       </ExternalLink>
                       {" · "}Circulated under an earlier title
                     </p>
-                    <p className="paper-status">
-                      Related Outreach Publication
-                    </p>
                     <div className="related-outreach">
+                      <p className="related-outreach-label">
+                        Related Outreach Publication
+                      </p>
                       <p className="paper-description">
                         Castillo, José Gabriel, Joseph Aguilar-Bohorquez,
                         and Ivanna Valverde-Bajaña. 2018.
