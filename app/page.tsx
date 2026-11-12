@@ -27,6 +27,11 @@ const links = {
   olivia: "https://conservancy.umn.edu/items/0b95f9fb-604e-4855-b258-6fb300f86ec7",
   businessDynamism: "https://extension.umn.edu/about/our-stories/news/community-news-and-insights/set-realistic-new-business-goals-starting-with-your-own-countys-history",
   snapEd: "https://apha.confex.com/apha/2026/meetingapp.cgi/Paper/595079",
+
+   // Institutional coverage and outreach
+  aucklandCoverage: "https://ourauckland.aucklandcouncil.govt.nz/news/2018/7/how-much-will-aucklanders-pay-to-live-close-to-a-heritage-area/",
+  ciecMangrove: "https://www.ciec.espol.edu.ec/sites/default/files/BPE-sept-digital%20v3.pdf",
+  oliviaCoverage: "https://extension.umn.edu/about/our-stories/news/rsdp-happenings/building-reuse-in-greater-mn-from-old-armory-to-new-opportunity",
 };
 
 function ExternalLink({
@@ -333,6 +338,26 @@ export default function Home() {
                       </ExternalLink>
                       {" · "}Circulated under an earlier title
                     </p>
+                    <div className="related-outreach">
+                      <p className="related-outreach-label">
+                        Related Outreach Publication
+                      </p>
+                    
+                      <p className="related-outreach-citation">
+                        Castillo, José Gabriel, Joseph Aguilar-Bohorquez,
+                        and Ivanna Valverde-Bajaña. 2018.
+                        &ldquo;Métodos de Valoración Económica:
+                        Una aplicación al manglar del Golfo de Guayaquil.&rdquo;
+                        <em> Boletín de Política Económica</em>, no. 3,
+                        Centro de Investigaciones Económicas, ESPOL.
+                      </p>
+                    
+                      <p className="related-outreach-link">
+                        <ExternalLink href={links.ciecMangrove}>
+                          Read outreach article
+                        </ExternalLink>
+                      </p>
+                    </div>
                   </div>
                 </article>
               </div>
@@ -423,6 +448,21 @@ export default function Home() {
                       and Joseph Aguilar-Bohorquez. <em>Land Use Policy</em> 99:
                       105042.
                     </p>
+                    <p className="publication-description">
+                      Using residential transactions from Auckland, New Zealand,
+                      this paper examines how heritage-preservation rules and
+                      proximity to historic places relate to housing values.
+                      It finds price premiums for homes in Special Character
+                      Areas and near heritage sites, but a price penalty for
+                      properties subject exclusively to stricter heritage protections.
+                    </p>
+                    
+                    <p className="publication-coverage">
+                      <strong>Institutional research Coverage::</strong>{" "}
+                      <ExternalLink href={links.aucklandCoverage}>
+                        Auckland Council (2018)
+                      </ExternalLink>
+                    </p>
                   </div>
                 </article>
                 <article>
@@ -441,6 +481,15 @@ export default function Home() {
                       Vera-Gilces. <em>Cuadernos de Economía</em> 41(115):
                       130–139.
                     </p>
+                    <p className="publication-description">
+                      This paper develops and evaluates a classroom experiment
+                      involving 24 undergraduate economics students to study
+                      purchase and market-entry decisions in a market with
+                      network effects. The experimental scenarios did not
+                      significantly affect these decisions, while individual
+                      characteristics, including knowledge of game theory,
+                      were associated with participants&apos; behavior.
+                    </p>
                   </div>
                 </article>
                 <article>
@@ -458,6 +507,15 @@ export default function Home() {
                       Joseph Aguilar-Bohorquez, and María J. Mendoza-Jiménez.{" "}
                       <em>International Journal of Energy Economics and Policy</em>{" "}
                       6(2): 208–216.
+                    </p>
+                    <p className="publication-description">
+                      Using Brazilian time-series data from 1971 to 2011,
+                      this paper examines the relationships among economic
+                      growth, CO2 emissions, energy consumption, and
+                      hydropower production. It finds evidence consistent
+                      with an Environmental Kuznets Curve in the long run,
+                      but not in the short run, highlighting the roles
+                      of energy use and electricity production.
                     </p>
                   </div>
                 </article>
@@ -506,6 +564,12 @@ export default function Home() {
                   <ExternalLink href={links.olivia}>
                     Published Report · University of Minnesota Digital Conservancy
                   </ExternalLink>
+                
+                  <span className="coverage-link">
+                    <ExternalLink href={links.oliviaCoverage}>
+                      Project Coverage · RSDP Happenings, UMN Extension
+                    </ExternalLink>
+                  </span>
                 </p>
               </article>
         
