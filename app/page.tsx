@@ -341,21 +341,22 @@ export default function Home() {
                     <p className="paper-status">
                       Related Outreach Publication
                     </p>
-                    
-                    <p className="paper-description">
-                      Castillo, José Gabriel, Joseph Aguilar-Bohorquez,
-                      and Ivanna Valverde-Bajaña. 2018.
-                      &ldquo;Métodos de Valoración Económica:
-                      Una aplicación al manglar del Golfo de Guayaquil.&rdquo;
-                      <em> Boletín de Política Económica</em>, no. 3,
-                      Centro de Investigaciones Económicas, ESPOL.
-                    </p>
-                    
-                    <p className="paper-status">
-                      <ExternalLink href={links.ciecMangrove}>
-                        Read outreach article
-                      </ExternalLink>
-                    </p>
+                    <div className="related-outreach">
+                      <p className="paper-description">
+                        Castillo, José Gabriel, Joseph Aguilar-Bohorquez,
+                        and Ivanna Valverde-Bajaña. 2018.
+                        &ldquo;Métodos de Valoración Económica:
+                        Una aplicación al manglar del Golfo de Guayaquil.&rdquo;
+                        <em> Boletín de Política Económica</em>, no. 3,
+                        Centro de Investigaciones Económicas, ESPOL.
+                      </p>
+                      
+                      <p className="paper-status">
+                        <ExternalLink href={links.ciecMangrove}>
+                          Read outreach article
+                        </ExternalLink>
+                      </p>
+                    </div>
                   </div>
                 </article>
               </div>
