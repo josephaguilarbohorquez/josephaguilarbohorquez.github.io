@@ -900,3 +900,103 @@ a { color: inherit; text-underline-offset: .2em; }
   color: var(--blue);
 }
 
+
+/* =========================================
+   Research Coverage & Outreach — Nov 2026
+   ========================================= */
+
+/* Descriptions of peer-reviewed publications */
+
+.publication-list article > div > p.publication-description {
+  max-width: 780px;
+  margin: 14px 0 0;
+  color: var(--muted);
+  font-size: 0.91rem;
+  line-height: 1.75;
+}
+
+/* Institutional coverage below publications */
+
+.publication-list article > div > p.publication-coverage {
+  margin: 14px 0 0;
+  color: var(--blue);
+  font-size: 0.84rem;
+  line-height: 1.7;
+}
+
+.publication-coverage strong {
+  font-weight: 700;
+}
+
+.publication-coverage a {
+  color: var(--blue);
+  text-decoration-color: rgba(40, 100, 140, 0.35);
+}
+
+.publication-coverage a:hover {
+  text-decoration-color: var(--navy-deep);
+}
+
+/* Outreach publication below the mangrove paper */
+
+.related-outreach {
+  margin-top: 20px;
+  padding-left: 17px;
+  border-left: 2px solid var(--gold);
+}
+
+.related-outreach-label {
+  margin: 0 0 7px;
+  color: var(--blue);
+  font-size: 0.73rem;
+  font-weight: 800;
+  letter-spacing: 0.055em;
+  text-transform: uppercase;
+}
+
+.related-outreach-citation {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.86rem;
+  line-height: 1.7;
+}
+
+.related-outreach-link {
+  margin: 9px 0 0;
+  font-size: 0.84rem;
+  font-weight: 700;
+}
+
+.related-outreach-link a {
+  color: var(--blue);
+  text-decoration-color: rgba(40, 100, 140, 0.35);
+}
+
+/* Second link inside the Olivia project card */
+
+.coverage-link {
+  display: block;
+  margin-top: 9px;
+  font-weight: 500;
+}
+
+.coverage-link a {
+  color: var(--blue);
+  text-decoration-color: rgba(40, 100, 140, 0.35);
+}
+
+.coverage-link a:hover {
+  text-decoration-color: var(--navy-deep);
+}
+
+/* Mobile adjustments */
+
+@media (max-width: 760px) {
+  .publication-list article > div > p.publication-description {
+    font-size: 0.89rem;
+  }
+
+  .related-outreach {
+    padding-left: 13px;
+  }
+}
